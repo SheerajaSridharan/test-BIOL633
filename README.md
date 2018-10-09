@@ -32,7 +32,12 @@ gene_id \1;
 
 ;Parent=(\S+)
 ; transcript_id \1
-
+# https://www.biostars.org/p/79202/
+# accessed 25 Sept. 2018
+# Vivek Krishnakumar
+# USE: perl removeSmallCmtd.pl 200
+# contigs.fasta > testL200.fasta
+#!/usr/bin/perl
 perl -v
 
 perl -e ‘print “Hello World\n"'
